@@ -10,8 +10,8 @@ import HSV_filter as hsv
 import shape_recognition as shape 
 import triangulation as tri
 
-cap_right= cv2.VideoCapture(0,cv2.CAP_DSHOW)
-cap_left= cv2.VideoCapture(1,cv2.CAP_DSHOW)
+cap_right = cv2.VideoCapture(4, cv2.CAP_V4L2)
+cap_left  = cv2.VideoCapture(2, cv2.CAP_V4L2)
 
 frame_rate=120
 B=9   #distance btw camera (cm)
